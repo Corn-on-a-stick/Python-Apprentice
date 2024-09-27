@@ -47,7 +47,7 @@ tina.color('red')                       # Set the color of tina to red
 tina.begin_fill()
 tina.circle(101, steps=50)
 tina.end_fill()
-
+tina.write("     a circle and a square")
 turtle.exitonclick()                    # Close the window when we click on it
 
 # Now you can try writing your own programs. Open
