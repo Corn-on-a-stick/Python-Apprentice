@@ -20,8 +20,24 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 
 
 ... # Your code here
+tina.begin_fill()
+tina.fillcolor('red')
+tina.circle(100)
+tina.penup()
+
+tina.goto(100,100)
+tina.pendown()
+tina.circle(100)
+tina.penup()
+tina.goto(-100,100)
+tina.pendown()
+
+tina.circle(100)
+tina.end_fill()
+
 
 turtle.exitonclick()                    # Close the window when we click on it
+
 
 
 # Dont forget to check in your code!
